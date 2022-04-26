@@ -188,10 +188,10 @@
                 </div>
                 <address>
                     <ul class="foot-list">
-                        <li><a class="foot-adress" href="https://goo.gl/maps/iG8N9iNhBNZRM3RP8">m. Warszawa, Aleje
-                                Jerozolimskie 21</a></li>
-                        <li><a class="foot-mail" href="mailto:info@example.com">info@example.com</a></li>
-                        <li><a class="foot-phone-number" href="tel:+48111111111">+48 111 111 111</a></li>
+                        <li><a class="foot-adress foot-list-item" href="https://goo.gl/maps/iG8N9iNhBNZRM3RP8">m. Warszawa,
+                                Aleje Jerozolimskie 21</a></li>
+                        <li><a class="foot-mail foot-list-item" href="mailto:info@example.com">info@example.com</a></li>
+                        <li><a class="foot-phone-number foot-list-item" href="tel:+48111111111">+48 111 111 111</a></li>
                     </ul>
                 </address>
             </div>
@@ -228,6 +228,20 @@
                     </li>
                 </ul>
             </div>
+            <form class="subscription-form" autocomplete="off">
+                <div class="subscription-divison">
+                    <label class="subscription-title" for="subscription-input-email">ZAPISZ SIĘ DO NEWSLETTERA</label>
+                    <input class="subscription-input-email" type="e-mail" name="e-mail" placeholder="E-mail" />
+                </div>
+                <div class="foot-button">
+                    <button class="subscription-button" type="submit">
+                        <p class="subscription-button-text">Zapisz się</p>
+                        <svg class="subscription-button-icon" width="24" height="24">
+                            <use href="./images/sprite.svg#icon-icon5send"></use>
+                        </svg>
+                    </button>
+                </div>
+            </form>
         </div>
     </footer>
 </body>
