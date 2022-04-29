@@ -652,6 +652,7 @@ padding-bottom: 50px;
     height: 16px;
     border: 2px solid var(--main-color);
     border-radius: 2px;
+    background-repeat: no-repeat;
    
   }
   
