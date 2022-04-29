@@ -665,6 +665,8 @@ padding-bottom: 50px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     background-image: url(../images/icon6box4.svg);
+    width: 16px;
+    height: 16px;
 }
 .visually-hidden{
     position:absolute !important;
