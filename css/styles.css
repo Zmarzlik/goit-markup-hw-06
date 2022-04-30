@@ -635,16 +635,14 @@ padding-bottom: 50px;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--grey-color);
   }
   
 .modal-form-policy-text > a {
     color: var( --secondary-color);
   }
   
-.modal-form-policy-checkbox {
-    appearance: none;
-}
+
 .modal-form-policy-text::before {
     display: inline-flex;
     content: "";
@@ -659,11 +657,10 @@ padding-bottom: 50px;
 .modal-form-policy-checkbox:checked + .modal-form-policy-text::before {
     
     background-size: contain;
-    border-color: var( --secondary-color);
+    border: 2px solid var( --secondary-color);
     background-color: var( --secondary-color);
-    transition-property: background-color, border-color; 
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 700ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 700ms cubic-bezier(0.4, 0, 0.2, 1);
     background-image: url(../images/icon6box4.svg);
     width: 16px;
     height: 16px;
