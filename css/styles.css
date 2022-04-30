@@ -642,7 +642,9 @@ padding-bottom: 50px;
     color: var( --secondary-color);
   }
   
-
+.modal-form-policy-checkbox {
+    appearance: none;
+}
 .modal-form-policy-text::before {
     display: inline-flex;
     content: "";
@@ -659,11 +661,11 @@ padding-bottom: 50px;
     background-size: contain;
     border: 2px solid var( --secondary-color);
     background-color: var( --secondary-color);
+    transition-property: background-color, border-color; 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-image: url(../images/icon6box4.svg);
-    width: 16px;
-    height: 16px;
+   
 }
 .visually-hidden{
     position:absolute !important;
