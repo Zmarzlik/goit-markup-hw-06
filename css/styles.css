@@ -639,7 +639,7 @@ padding-bottom: 50px;
   }
   
 .modal-form-policy-text > a {
-    color: #2196F3;
+    color: var( --secondary-color);
   }
   
 .modal-form-policy-checkbox {
@@ -659,8 +659,8 @@ padding-bottom: 50px;
 .modal-form-policy-checkbox:checked + .modal-form-policy-text::before {
     
     background-size: contain;
-    border-color: #2196F3;
-    background-color: #2196F3;
+    border-color: var( --secondary-color);
+    background-color: var( --secondary-color);
     transition-property: background-color, border-color; 
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
